@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KFSHRC Directory Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7f6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #006A4D;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 300px;
+        }
+        .directory-button {
+            background-color: #006A4D;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .directory-button:hover {
+            background-color: #004f39;
+        }
+        @media (min-width: 600px) {
+            .button-container {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>KFSHRC Directory</h1>
+    <div class="button-container">
+        <a href="general_directory.html" class="directory-button">General Directory</a>
+        <a href="frequent_directory.html" class="directory-button">Frequent Use Directory</a>
+    </div>
+</body>
+</html>

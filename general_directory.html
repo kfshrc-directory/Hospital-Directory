@@ -1,0 +1,1755 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>General Directory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #006A4D;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        table.directory-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table.directory-table th, table.directory-table td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        @media screen and (max-width: 600px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            td {
+                padding-left: 50%;
+                position: relative;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>General Directory</h2>
+    <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for names or numbers...">
+    <table class="dataframe directory-table">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Department</th>
+      <th>Phone</th>
+      <th>Alt Contact</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A1</td>
+      <td>23127 / 23128</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>A1 Head Nurse</td>
+      <td>23100</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>A2</td>
+      <td>23152/23153</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>A2 Head Nurse</td>
+      <td>23154</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>A3</td>
+      <td>23181 / 23182</td>
+      <td>48873</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>A3 Head Nurse</td>
+      <td>23218</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>A3-2 Nurse Station</td>
+      <td>39044 / 39045</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>A4 Charge Nurse</td>
+      <td></td>
+      <td>44431</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>A4 Head Nurse</td>
+      <td>39888</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Access Control</td>
+      <td>27108 / 27132/35431</td>
+      <td>44751</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Admission Bedboard</td>
+      <td>35909 / 23696</td>
+      <td>49150</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Admission ID Band &amp; Label</td>
+      <td>35913/35912</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Appointment ( Confirmation )</td>
+      <td>27377</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Appointment Supervisor</td>
+      <td>27364</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Audiology Clinic</td>
+      <td>32381</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>B1</td>
+      <td>23210 / 23211</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>B1 Head Nurse</td>
+      <td>23212</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Level B1 Radiation Therapy KACOLD</td>
+      <td>80303</td>
+      <td>11300/44015</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>B2</td>
+      <td>23240 / 23242</td>
+      <td>44273</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>B2 Head Nurse</td>
+      <td>23243</td>
+      <td>44524</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>B3-1</td>
+      <td>23271 / 23272</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>B3-1 Head Nurse</td>
+      <td>23274</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>B4 Head Nurse (CCU)</td>
+      <td>23689</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>B4 Nurse Station</td>
+      <td>23687 / 23991</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>BED MANAGER</td>
+      <td></td>
+      <td>46621</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>BIOMED Engineering</td>
+      <td>27112 / 23032 / 27701</td>
+      <td>47040</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>BLOOD Apheresis Bank</td>
+      <td>24258</td>
+      <td></td>
+      <td>Blood Bank</td>
+    </tr>
+    <tr>
+      <td>BLOOD BANK</td>
+      <td>38270/38220</td>
+      <td></td>
+      <td>Blood Bank</td>
+    </tr>
+    <tr>
+      <td>C1</td>
+      <td>23299/23298</td>
+      <td>46367</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>C1 Head Nurse</td>
+      <td>23297</td>
+      <td>40072</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>C2 Head Nurse</td>
+      <td></td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>C3</td>
+      <td>23356 / 23357</td>
+      <td>45884</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>C3 AHN</td>
+      <td>37664</td>
+      <td>46756</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>C3 Charge Nurse</td>
+      <td>23356</td>
+      <td>45884</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>C3 Clinical Instruction ( CI )</td>
+      <td></td>
+      <td>49005</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>C3 Head Nurse</td>
+      <td>23358</td>
+      <td>44527</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>C4 ( CVT )</td>
+      <td>39410/24917</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Capacity Management (Dispatcher Transportation)</td>
+      <td>31175</td>
+      <td>46776</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Cardiology Appointment</td>
+      <td>20623</td>
+      <td>45042</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology CVSD</td>
+      <td>39128 / 39129</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology ECHO</td>
+      <td>20615</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology ECHO (Holter)</td>
+      <td>23989/20586</td>
+      <td>41849</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology ECHO (Portable)</td>
+      <td></td>
+      <td>49475</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology Echo APPOINTMENT</td>
+      <td>20580</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology ECHO ON-CALL</td>
+      <td>20699</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology ECHO TEAM LEADER</td>
+      <td></td>
+      <td>45696</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology EKG</td>
+      <td>23915 / 39100 / 23421</td>
+      <td>48703 / 48702</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology EKG On-Call</td>
+      <td></td>
+      <td>48704</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology Holter Monitor</td>
+      <td>20586</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology Pacemaker On-Call</td>
+      <td></td>
+      <td>44096</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cardiology TEE</td>
+      <td></td>
+      <td>41970</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Cast Tech</td>
+      <td></td>
+      <td>43336</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>CCU</td>
+      <td>23991/23992</td>
+      <td>45867</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Clinical Pharmacist</td>
+      <td></td>
+      <td>48822</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>CODE Blue/Green</td>
+      <td>22222</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Colorectal Clinic</td>
+      <td>34541 / 34542</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Communication (Call Bell System)</td>
+      <td>27164</td>
+      <td>40001</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Communication Telephone Repair</td>
+      <td>38837/38808</td>
+      <td>66666</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Communication TV Repairs for Pts Room</td>
+      <td>32140/32125/32129</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>CSICU CHARGE</td>
+      <td></td>
+      <td>41860</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>C4 CHARGE ( CVT )</td>
+      <td></td>
+      <td>48704</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>D3</td>
+      <td>23420 / 23363</td>
+      <td>11877</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>D4 Coordinator</td>
+      <td>27658</td>
+      <td>41313</td>
+      <td>Protocol</td>
+    </tr>
+    <tr>
+      <td>D4-1</td>
+      <td>23488 / 23489</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>D4-1 Head Nurse</td>
+      <td>23492</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>D4-2</td>
+      <td>23489 / 23687</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>DAY MEDICAL UNIT ( DMU )</td>
+      <td>20205</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>DAY MEDICAL UNIT ( DMU ) Treatment</td>
+      <td>38095 / 38061</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>DAY MEDICAL UNIT ( DMU )Head-nurse Office</td>
+      <td>23849</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Day Medical Unit (DMU)</td>
+      <td>23847 / 34049</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Day Surgical Unit ( DSU )  Appointment</td>
+      <td>23422 / 32750</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Day Surgical Unit ( DSU )  DESK</td>
+      <td>39201/39202/39203</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Day Surgical Unit ( DSU ) Head Nurse</td>
+      <td>39218</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Day Surgical Unit ( DSU ) HOLDING</td>
+      <td>32670/32654</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Day Surgical Unit ( DSU ) Nurses Station</td>
+      <td>39202 / 39202</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Day Surgical Unit ( DSU ) PACU</td>
+      <td>32418 / 32419</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Dental Clinic</td>
+      <td>31652 / 31653 /32814</td>
+      <td>32814</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Dermatology Clinic</td>
+      <td>34043</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Diabetic Clinic</td>
+      <td>38943</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>DIETITIAN</td>
+      <td></td>
+      <td>45681</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>DIETITIAN SUPERVISOR</td>
+      <td>32203</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>E1</td>
+      <td>23515/23514/31568</td>
+      <td>41462</td>
+      <td>East Wing</td>
+    </tr>
+    <tr>
+      <td>E1 &amp; E3 ASSISTANT HEAD NURSE</td>
+      <td>23516</td>
+      <td>47550</td>
+      <td>East Wing</td>
+    </tr>
+    <tr>
+      <td>E1 &amp; E3 HEAD NURSE</td>
+      <td>31556</td>
+      <td>59986</td>
+      <td>East Wing</td>
+    </tr>
+    <tr>
+      <td>E2</td>
+      <td>23740/23518</td>
+      <td>11701</td>
+      <td>East Wing</td>
+    </tr>
+    <tr>
+      <td>E3</td>
+      <td>21699 / 23499 / 21698</td>
+      <td>43792</td>
+      <td>East Wing</td>
+    </tr>
+    <tr>
+      <td>Eligibility (Medical)</td>
+      <td>35961 / 35910 / 27514</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Employee Relation</td>
+      <td>27300</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Endocrinology Clinic</td>
+      <td>32759</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Endoscopy ( North Tower )</td>
+      <td>34560</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>ENT Clinic</td>
+      <td>23759 / 34163</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>EOD Office</td>
+      <td>27502</td>
+      <td>41212</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Epilepsy</td>
+      <td>32833</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>F1</td>
+      <td>23582 / 23583</td>
+      <td></td>
+      <td>East Wing</td>
+    </tr>
+    <tr>
+      <td>F2</td>
+      <td>23618/23619</td>
+      <td></td>
+      <td>East Wing</td>
+    </tr>
+    <tr>
+      <td>F3</td>
+      <td>23654/23655</td>
+      <td></td>
+      <td>East Wing</td>
+    </tr>
+    <tr>
+      <td>Family Med &amp; Polyclinic</td>
+      <td>31860</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Family Medicine Medical Record</td>
+      <td>38343</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Food Service D4</td>
+      <td>32233</td>
+      <td></td>
+      <td>Protocol</td>
+    </tr>
+    <tr>
+      <td>Food Service</td>
+      <td>31100</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Food Service Call Center</td>
+      <td>31100/27200</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Food Service Supervisor</td>
+      <td>32203</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Gastrology Clinic</td>
+      <td>34521 / 34522</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Genetic Clinic</td>
+      <td>37920 / 37921 / 37922</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>HBO</td>
+      <td>37996 / 31578</td>
+      <td>48461</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>High Dependency Unit ( HDU ) Main</td>
+      <td>23776</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Home Health Care</td>
+      <td>23885 / 35553 / 23855</td>
+      <td>48448</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Home Oxygen</td>
+      <td>70544/70514</td>
+      <td>41617 /46387</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Hospital Number</td>
+      <td>199019</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>House Keeping</td>
+      <td></td>
+      <td>48025</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Infection Control</td>
+      <td>31396</td>
+      <td>42558</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>LAB Biochemistry</td>
+      <td>24209 / 24233</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Chemistry</td>
+      <td>24278</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Collection</td>
+      <td>24290</td>
+      <td>46103</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Cytogenetics</td>
+      <td>35843 / 35861</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Cytology</td>
+      <td>38227 / 35880</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Genetics</td>
+      <td>38218/38219/24288</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Hematology/Coagulation</td>
+      <td>38218</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Histopathology</td>
+      <td>35875</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Metabolic</td>
+      <td>32931/32522</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Microbiology</td>
+      <td>38267/24272/38238</td>
+      <td>46868</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Molecular Genetics</td>
+      <td>39633/35890</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Outreach</td>
+      <td>38213/35850</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Pathology</td>
+      <td>38226/27225</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Phlebotomist</td>
+      <td>38291</td>
+      <td>46021</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Processing</td>
+      <td>70708</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Specimen Received</td>
+      <td>24231/24201</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB Supervisor</td>
+      <td>24336</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAB TB</td>
+      <td>38282 / 24252</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LAUNDRY</td>
+      <td>32323</td>
+      <td>48064</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>LEVEL 02 - ENDOSCOPY/OR</td>
+      <td>80479 / 80480</td>
+      <td></td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 03 - INFUSION</td>
+      <td>80574 / 80557</td>
+      <td>11030</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 03 - INFUSION Schedul</td>
+      <td></td>
+      <td>41885</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LEVEL 05 - RADIOLOGY</td>
+      <td>73086 / 80732 / 80701</td>
+      <td></td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 07 - Lung</td>
+      <td>80860</td>
+      <td></td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 07 - Medical Oncology Clinic</td>
+      <td>80908 / 73100 / 80890</td>
+      <td>45030</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 08 - Liver,HEMA Clinic</td>
+      <td>82062 / 73171 / 73133</td>
+      <td>42275/47109</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 09</td>
+      <td>73228 / 82086 / 82088 / 73227</td>
+      <td>11660</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 10</td>
+      <td>82138 / 73235</td>
+      <td>11122 / 11125</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 11</td>
+      <td>82190</td>
+      <td>11146</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 13</td>
+      <td>73304</td>
+      <td>11304</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 14</td>
+      <td>82232 / 73366 / 73335</td>
+      <td>11609</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 15</td>
+      <td>82273 / 82274</td>
+      <td>11170 / 11175</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 16</td>
+      <td>73421 / 73422 / 82281 / 82282</td>
+      <td>11580</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 17</td>
+      <td>82303  73467 / 82314 / 73467</td>
+      <td>11195</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 18</td>
+      <td>82318 / 82317 / 73499</td>
+      <td>11209</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 19</td>
+      <td>82318 / 82319 / 80309</td>
+      <td>11221 / 11228 / 11230</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LEVEL 19</td>
+      <td>80309</td>
+      <td>11230</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>Maintanance</td>
+      <td>27999/ 35730 / 35732</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Medical Recored file area</td>
+      <td>39008/39009</td>
+      <td>49278</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Medical Report</td>
+      <td>34333</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Medical Store</td>
+      <td>32333</td>
+      <td>49223</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Neurophysiology Lab (EEG &amp; EMG)</td>
+      <td>24123 / 24127/ 38135</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Neurophysiology Lab Tech</td>
+      <td>38877/38872</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Nursing equipment STORE</td>
+      <td>70070</td>
+      <td>48494</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Nursing Staffing scheduling ( NSSO )</td>
+      <td></td>
+      <td>44139</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Occupational Therapy</td>
+      <td>23894</td>
+      <td>50407/49172</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Opthamology (Eye Clinic)</td>
+      <td>76130</td>
+      <td>48400</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>OR Booking Desk</td>
+      <td>32750</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>OR Front Desk</td>
+      <td></td>
+      <td>44848</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>OR Head Nurse</td>
+      <td></td>
+      <td>48401</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>OR Holding Bay</td>
+      <td>33780</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>OR Level 2 Front Desk</td>
+      <td>32746/32747</td>
+      <td>44848</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>OR Level 2 HN</td>
+      <td>23084</td>
+      <td>48401</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>OR Level 4</td>
+      <td>32774</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>OR Level 4 HN</td>
+      <td>23713</td>
+      <td>44414</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>OR Recovery Room</td>
+      <td>23067/23071</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>OR Store</td>
+      <td>35069</td>
+      <td>43235</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Oxygen Tank Refill</td>
+      <td></td>
+      <td>49292</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Pain Clinic</td>
+      <td>23822/23828</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Pain Service: Doctor ( APS )</td>
+      <td></td>
+      <td>46332</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Pain Service: Nurse ( APS )</td>
+      <td></td>
+      <td>49248/40067</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Paramedics ( Ambualance )</td>
+      <td>77777</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Patient Relation</td>
+      <td></td>
+      <td>40135</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Patient Relation Oncall</td>
+      <td></td>
+      <td>46910</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Pest Control</td>
+      <td>32318/32305</td>
+      <td>49022/46624</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Discharge</td>
+      <td>34611/34616/34604</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Controlled Medication</td>
+      <td>27606</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pharmacy CSICU</td>
+      <td>35289</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Pharmacy DMU</td>
+      <td>27610/38619/34129</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Drug Info</td>
+      <td>27601</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Emergency ( EMS )</td>
+      <td>86233/86234/86235/86237</td>
+      <td></td>
+      <td>EMS</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Inpatient</td>
+      <td>38661/28494</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pharmacy IV Room</td>
+      <td>38665/38666</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pharmacy KACOLD</td>
+      <td>80349/80349/80326</td>
+      <td></td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Main</td>
+      <td>38611/38662/28694</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pharmacy MSICU C</td>
+      <td></td>
+      <td>45805</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Narcotic Room</td>
+      <td>38610/38612</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pharmacy North Tower</td>
+      <td>34605/34607</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Outpatient Pharmacy</td>
+      <td>33572/ 33673 / 33677</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Pyxis</td>
+      <td>27609</td>
+      <td>45212</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pharmacy TPN</td>
+      <td>38682</td>
+      <td>49289</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Pheresis</td>
+      <td>31842/32392</td>
+      <td></td>
+      <td>Blood Bank</td>
+    </tr>
+    <tr>
+      <td>Photographic</td>
+      <td>23893/32394</td>
+      <td>45979</td>
+      <td>red carpet</td>
+    </tr>
+    <tr>
+      <td>Physical Therapy</td>
+      <td>23839/32249</td>
+      <td>41622</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>PICC Line Nurse</td>
+      <td></td>
+      <td>49562</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>PICU</td>
+      <td>23682 / 32270</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>PICU CHARGE</td>
+      <td></td>
+      <td>44436</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Pnneumatic Tube</td>
+      <td>39999</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>POCT Section</td>
+      <td>37714/37716</td>
+      <td>48360</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Pre Anesthesia Clinic</td>
+      <td>39238</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Print Shop</td>
+      <td>32155 / 32150/32154</td>
+      <td>46817</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Prosthetics</td>
+      <td>23873</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Pulmonary Function Test ( PFT )</td>
+      <td>23679</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Radiation Therapy</td>
+      <td>23688/38500</td>
+      <td></td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Radioactive Spill</td>
+      <td>24674</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Radiology</td>
+      <td>78887</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Angiogram</td>
+      <td>38880/33671</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Appointment</td>
+      <td>23927 / 23926</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology BMD</td>
+      <td>38954</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Bone Scan</td>
+      <td>38839/ 38877</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology CT Scan</td>
+      <td>78887</td>
+      <td>49619</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology ECHO</td>
+      <td>20614/39100</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Radiology ECHO Portable</td>
+      <td></td>
+      <td>49475</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Radiology ECHO TL</td>
+      <td></td>
+      <td>45696</td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Radiology Fluoroscopy</td>
+      <td>34843/ 34844/34845</td>
+      <td>48368</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Hotline Number</td>
+      <td>78887</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Mammogram KACOLD</td>
+      <td>82129</td>
+      <td></td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>Radiology Mammogram Outpatient</td>
+      <td>39161 / 27794 /33672</td>
+      <td>46777</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Radiology MRI</td>
+      <td>78887</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Nuclear Medicin</td>
+      <td>38877</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Pacemaker</td>
+      <td>20584/5</td>
+      <td></td>
+      <td>Cardiology</td>
+    </tr>
+    <tr>
+      <td>Radiology PET Scan</td>
+      <td>78887</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Thallium Scan</td>
+      <td>35783</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology UltraSound ( US )</td>
+      <td>78887</td>
+      <td>33668</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Ultrasound O.B/Gyne</td>
+      <td>32493/32491</td>
+      <td></td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Radiology Ultrasound  Breast ( US )</td>
+      <td>27794</td>
+      <td>46777</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Radiology X-RAY OPD</td>
+      <td>38854</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Radiology X-RAY Portable</td>
+      <td></td>
+      <td>48351</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Respiratory Home</td>
+      <td>35552</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Respiratory Therapy</td>
+      <td></td>
+      <td>49708</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Respiratory Therapy Hotline</td>
+      <td>70544</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>RRT</td>
+      <td></td>
+      <td>45381</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>RRT Adults</td>
+      <td>27186/27188</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Safety (Fire Team Leader)</td>
+      <td>27101</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Safety Security &amp; Communication</td>
+      <td>71111/27120</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Sleep Study</td>
+      <td>27536/38560</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Social Service</td>
+      <td></td>
+      <td>47039</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Social Worker Office</td>
+      <td>24646/24648</td>
+      <td>45389</td>
+      <td>Main</td>
+    </tr>
+    <tr>
+      <td>Speach Therapy ( SLP )</td>
+      <td>33838/34286</td>
+      <td>50343</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Speech Therapist (SLT)</td>
+      <td>35203</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Stoma Nurses Jawza</td>
+      <td></td>
+      <td>?????</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Stoma Nurs3 Khloud</td>
+      <td></td>
+      <td>41629</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Stoma Nurse Sandra</td>
+      <td></td>
+      <td>48971</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Stoma Nurse Seham</td>
+      <td></td>
+      <td>50335</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Supply Chain Assessment</td>
+      <td>32324</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Surgical Clinic</td>
+      <td>35499</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Trache CNC</td>
+      <td>31045/31076</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Trache Nurse</td>
+      <td></td>
+      <td>49730</td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Upholstery</td>
+      <td>35538/35541</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Upload Outside Image</td>
+      <td>38406</td>
+      <td>49657</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Urodynamic Studies</td>
+      <td>38232</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Urology Clinic</td>
+      <td>32735/21026</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Vascular Clinic</td>
+      <td>34193/34167/34205</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Virology Clinic</td>
+      <td>24522</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House Bedside Laundry</td>
+      <td>35230</td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Ware House Costumer Services</td>
+      <td></td>
+      <td></td>
+      <td>General</td>
+    </tr>
+    <tr>
+      <td>Ware House Disposal &amp; Incinerator</td>
+      <td>32463</td>
+      <td>49285</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House NO.1 (Inpatient)</td>
+      <td>35231</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House NO.2 (Distribution)</td>
+      <td>35266/35258</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House NO.3 (Distribution)</td>
+      <td>35238</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House NO.4</td>
+      <td>24681</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House NO.5</td>
+      <td>35229</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House NO.6</td>
+      <td>35245</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House NO.7</td>
+      <td>35671</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House NO.8</td>
+      <td>38810/38806</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Ware House Secretary</td>
+      <td>35232</td>
+      <td></td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Wound Care Nurse Ahmad</td>
+      <td></td>
+      <td>47193</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Wound Care Nurse Nada</td>
+      <td></td>
+      <td>47189</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Wound Care Nurse Shoroq</td>
+      <td></td>
+      <td>47175</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Wound Care Nurse Yousef</td>
+      <td></td>
+      <td>47196</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Wound Care Nurse Azza</td>
+      <td></td>
+      <td>49603</td>
+      <td>Out-Patient</td>
+    </tr>
+    <tr>
+      <td>Morgue</td>
+      <td>27633</td>
+      <td></td>
+      <td>EMS</td>
+    </tr>
+    <tr>
+      <td>Dialysis</td>
+      <td>23690</td>
+      <td>44060</td>
+      <td>North Tower</td>
+    </tr>
+    <tr>
+      <td>Dialysis KACOLD</td>
+      <td>82605</td>
+      <td>42402</td>
+      <td>KACOLD</td>
+    </tr>
+    <tr>
+      <td>LAB OutPatient</td>
+      <td>38272</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>LAG Immunology</td>
+      <td>24237</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emergency B1 Charge Nurse</td>
+      <td></td>
+      <td>11555</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Emergency L2 Charge Nurse</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+    <script>
+        function searchFunction() {
+            var input, filter, table, tr, td, i, j, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toLowerCase();
+            table = document.querySelector("table");
+            tr = table.getElementsByTagName("tr");
+            for (i = 1; i < tr.length; i++) {
+                tr[i].style.display = "none";
+                td = tr[i].getElementsByTagName("td");
+                for (j = 0; j < td.length; j++) {
+                    if (td[j]) {
+                        txtValue = td[j].textContent || td[j].innerText;
+                        if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

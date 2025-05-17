@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Frequent Use Directory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #006A4D;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        table.directory-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table.directory-table th, table.directory-table td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        @media screen and (max-width: 600px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            td {
+                padding-left: 50%;
+                position: relative;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Frequent Use Directory</h2>
+    <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for names or numbers...">
+    <table class="dataframe directory-table">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Service</th>
+      <th>Phone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Admission</td>
+      <td>35900/35912</td>
+    </tr>
+    <tr>
+      <td>OR Store</td>
+      <td>43235</td>
+    </tr>
+    <tr>
+      <td>Ambulance</td>
+      <td>77777</td>
+    </tr>
+    <tr>
+      <td>Pain Service Doctors</td>
+      <td>46332</td>
+    </tr>
+    <tr>
+      <td>Pain Service Nurse</td>
+      <td>49248/40067</td>
+    </tr>
+    <tr>
+      <td>Bed Manager</td>
+      <td>46621</td>
+    </tr>
+    <tr>
+      <td>Blood Bank</td>
+      <td>38270/38220</td>
+    </tr>
+    <tr>
+      <td>Patient Relation</td>
+      <td>40135</td>
+    </tr>
+    <tr>
+      <td>C3 AHN Stephanie</td>
+      <td>46756</td>
+    </tr>
+    <tr>
+      <td>Pest Control</td>
+      <td>49022</td>
+    </tr>
+    <tr>
+      <td>Pharmacy D/C</td>
+      <td>34611</td>
+    </tr>
+    <tr>
+      <td>Pharmacy EMS</td>
+      <td>86233</td>
+    </tr>
+    <tr>
+      <td>Pharmacy Inpatient</td>
+      <td>38661</td>
+    </tr>
+    <tr>
+      <td>Pharmacy IV room</td>
+      <td>38665</td>
+    </tr>
+    <tr>
+      <td>Dialysis</td>
+      <td>23690/44060</td>
+    </tr>
+    <tr>
+      <td>Phlebotomist</td>
+      <td>38291</td>
+    </tr>
+    <tr>
+      <td>Dietitian</td>
+      <td>45681</td>
+    </tr>
+    <tr>
+      <td>Physical Therapy</td>
+      <td>41622</td>
+    </tr>
+    <tr>
+      <td>Dispatcher</td>
+      <td>31175</td>
+    </tr>
+    <tr>
+      <td>Picc Line Nurse</td>
+      <td>49562</td>
+    </tr>
+    <tr>
+      <td>Endoscopy Kacold</td>
+      <td>80479</td>
+    </tr>
+    <tr>
+      <td>Protocol</td>
+      <td>41313</td>
+    </tr>
+    <tr>
+      <td>Endoscopy North</td>
+      <td>34560</td>
+    </tr>
+    <tr>
+      <td>PrP</td>
+      <td>47386</td>
+    </tr>
+    <tr>
+      <td>EoD</td>
+      <td>41212</td>
+    </tr>
+    <tr>
+      <td>Radiology Echo</td>
+      <td>20614/39100</td>
+    </tr>
+    <tr>
+      <td>Radiology Main</td>
+      <td>78887</td>
+    </tr>
+    <tr>
+      <td>Radiology Mammogram</td>
+      <td>46777</td>
+    </tr>
+    <tr>
+      <td>Radiology OnCall</td>
+      <td>47858</td>
+    </tr>
+    <tr>
+      <td>Radiology Xray</td>
+      <td>38854</td>
+    </tr>
+    <tr>
+      <td>Radiology Xray Portable</td>
+      <td>48351</td>
+    </tr>
+    <tr>
+      <td>Food Service D4</td>
+      <td>32233</td>
+    </tr>
+    <tr>
+      <td>Food Service Kitchen</td>
+      <td>31100</td>
+    </tr>
+    <tr>
+      <td>Food Service Supervisor</td>
+      <td>32203</td>
+    </tr>
+    <tr>
+      <td>HBO</td>
+      <td>37996/31578</td>
+    </tr>
+    <tr>
+      <td>Holter Monitor</td>
+      <td>20586</td>
+    </tr>
+    <tr>
+      <td>Home Oxygen</td>
+      <td>70544</td>
+    </tr>
+    <tr>
+      <td>Respiratory Therapy</td>
+      <td>49708</td>
+    </tr>
+    <tr>
+      <td>Hospital</td>
+      <td>199019</td>
+    </tr>
+    <tr>
+      <td>Security</td>
+      <td>71111/27012</td>
+    </tr>
+    <tr>
+      <td>House Keeping</td>
+      <td>48025</td>
+    </tr>
+    <tr>
+      <td>Social Worker</td>
+      <td>47039</td>
+    </tr>
+    <tr>
+      <td>Lab Chemistry</td>
+      <td>24278</td>
+    </tr>
+    <tr>
+      <td>Lab Collection</td>
+      <td>24290</td>
+    </tr>
+    <tr>
+      <td>Lab Hematology</td>
+      <td>38218</td>
+    </tr>
+    <tr>
+      <td>Lab Microbiology</td>
+      <td>24272/38267</td>
+    </tr>
+    <tr>
+      <td>Lab Pathology</td>
+      <td>24209/38226</td>
+    </tr>
+    <tr>
+      <td>Lab PFT</td>
+      <td>23679</td>
+    </tr>
+    <tr>
+      <td>Lab Processing</td>
+      <td>70708</td>
+    </tr>
+    <tr>
+      <td>Laundry</td>
+      <td>32323/48064</td>
+    </tr>
+    <tr>
+      <td>Lost Tube</td>
+      <td>39999</td>
+    </tr>
+    <tr>
+      <td>Maintenance</td>
+      <td>27999</td>
+    </tr>
+    <tr>
+      <td>Medical Store</td>
+      <td>49273</td>
+    </tr>
+    <tr>
+      <td>NSSO</td>
+      <td>44139/49083</td>
+    </tr>
+    <tr>
+      <td>Nursing Store</td>
+      <td>45788</td>
+    </tr>
+    <tr>
+      <td>WOUND CARE Ahmad</td>
+      <td>47193</td>
+    </tr>
+    <tr>
+      <td>WOUND CARE NURSE NADA</td>
+      <td>47189</td>
+    </tr>
+    <tr>
+      <td>WOUND CARE NURSE SHOROQ</td>
+      <td>47175</td>
+    </tr>
+    <tr>
+      <td>WOUND CARE NURSE YOUSEF</td>
+      <td>47196</td>
+    </tr>
+    <tr>
+      <td>Wound Care Nurses: Azza</td>
+      <td>49603</td>
+    </tr>
+    <tr>
+      <td>EMS Charge</td>
+      <td>11555</td>
+    </tr>
+    <tr>
+      <td>Level 9 Nurse</td>
+      <td>11660</td>
+    </tr>
+    <tr>
+      <td>E2 Charge Nurse</td>
+      <td>11701</td>
+    </tr>
+  </tbody>
+</table>
+    <script>
+        function searchFunction() {
+            var input, filter, table, tr, td, i, j, txtValue;
+            input = document.getElementById("searchInput");
+            filter = input.value.toLowerCase();
+            table = document.querySelector("table");
+            tr = table.getElementsByTagName("tr");
+            for (i = 1; i < tr.length; i++) {
+                tr[i].style.display = "none";
+                td = tr[i].getElementsByTagName("td");
+                for (j = 0; j < td.length; j++) {
+                    if (td[j]) {
+                        txtValue = td[j].textContent || td[j].innerText;
+                        if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
