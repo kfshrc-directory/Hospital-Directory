@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interpreter Directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f6f9f8;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #007f3f;
+        }
+        .search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .search-container input {
+            width: 90%;
+            max-width: 600px;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: #007f3f;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+        function searchTable() {
+            var input = document.getElementById("searchInput");
+            var filter = input.value.toLowerCase();
+            var table = document.getElementById("directoryTable");
+            var tr = table.getElementsByTagName("tr");
+
+            for (var i = 1; i < tr.length; i++) {
+                var tdList = tr[i].getElementsByTagName("td");
+                var show = false;
+                for (var j = 0; j < tdList.length; j++) {
+                    if (tdList[j].innerText.toLowerCase().indexOf(filter) > -1) {
+                        show = true;
+                        break;
+                    }
+                }
+                tr[i].style.display = show ? "" : "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Interpreter Directory</h1>
+    <div class="search-container">
+        <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search by name, ID, contact or language...">
+    </div>
+    <table id="directoryTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>ID No.</th>
+                <th>Contact No.</th>
+                <th>Language(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>Jasmin Jawdat</td>
+                <td>35594</td>
+                <td>32007 / 45913</td>
+                <td>German</td>
+            </tr>
+    
+            <tr>
+                <td>Spasie De Laan</td>
+                <td>80486</td>
+                <td>49248</td>
+                <td>Afrikaans</td>
+            </tr>
+    
+            <tr>
+                <td>Haleedh Rahman</td>
+                <td>1513237</td>
+                <td>39100</td>
+                <td>Tamil</td>
+            </tr>
+    
+            <tr>
+                <td>Shiji Poulose</td>
+                <td>55930</td>
+                <td>46675</td>
+                <td>Hindi, Telugu, Malayalam</td>
+            </tr>
+    
+            <tr>
+                <td>Sukinah Shamsuddin</td>
+                <td>97968</td>
+                <td>533814172</td>
+                <td>Bahasa - Malaysia</td>
+            </tr>
+    
+            <tr>
+                <td>Syed Mohiuddin</td>
+                <td>99013</td>
+                <td>33291</td>
+                <td>Urdu/Hindi</td>
+            </tr>
+    
+            <tr>
+                <td>Maqsood Ahmed</td>
+                <td>1500743</td>
+                <td>42262</td>
+                <td>Urdu</td>
+            </tr>
+    
+            <tr>
+                <td>Hanadi Alsomali</td>
+                <td>1502120</td>
+                <td>76130</td>
+                <td>Somali</td>
+            </tr>
+    
+            <tr>
+                <td>Naeema Houri</td>
+                <td>1504888</td>
+                <td>45064</td>
+                <td>Somali</td>
+            </tr>
+    
+            <tr>
+                <td>Beselda Mallari</td>
+                <td>57569</td>
+                <td>45696</td>
+                <td>Filipino/Tagalog</td>
+            </tr>
+    
+            <tr>
+                <td>Aamir Sheikh</td>
+                <td>1501206</td>
+                <td>49029</td>
+                <td>Urdu</td>
+            </tr>
+    
+            <tr>
+                <td>Musthafa Peedikayil</td>
+                <td>82748</td>
+                <td>48980</td>
+                <td>Malayalam</td>
+            </tr>
+    
+            <tr>
+                <td>Shara Jane Suguitan</td>
+                <td>1507585</td>
+                <td>27495</td>
+                <td>Tagalog</td>
+            </tr>
+    
+            <tr>
+                <td>Kim Sadler</td>
+                <td>1510324</td>
+                <td>48122</td>
+                <td>French</td>
+            </tr>
+    
+            <tr>
+                <td>Mansour Alzahrani</td>
+                <td>66470</td>
+                <td>31928 / 46813</td>
+                <td>Sign language</td>
+            </tr>
+    
+            <tr>
+                <td>Hissah Almutairi</td>
+                <td>1520584</td>
+                <td>44461</td>
+                <td>Sign language</td>
+            </tr>
+    
+        </tbody>
+    </table>
+</body>
+</html>
